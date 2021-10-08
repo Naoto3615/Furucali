@@ -1,0 +1,32 @@
+.header{
+	height: 100px;
+	background-color:#066088;
+	color: white;
+}
+
+.logo,.header-name,.search,.login,.new{
+	width: 80px;
+	height: 30px;
+	margin: 0 10px;
+	padding: 20px;
+}
+.header-up{
+	display: flex;
+}
+
+.header-left{
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+.header-right{
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.search{
+	height: 1px;
+	width: 200px;
+	margin-top: 20px;
+}
